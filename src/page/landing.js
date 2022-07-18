@@ -6,8 +6,6 @@ import {
   ExplainThree,
   ExplainFour,
 } from '../style/landingStyle';
-
-import { useState } from 'react';
 import Start from '../components/start';
 
 function Landing() {

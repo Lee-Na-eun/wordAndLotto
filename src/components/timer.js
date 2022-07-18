@@ -7,7 +7,6 @@ function Timer({ setSuccess, success }) {
   const [word, setWord] = useState(randomWord());
   const [changeWord, setChageWord] = useState('');
   const [invalidTxt, setInvalidTxt] = useState('');
-  const [timeOut, setTimeOut] = useState(false);
   const [correctArr, setCorrectArr] = useState([]);
 
   useEffect(() => {

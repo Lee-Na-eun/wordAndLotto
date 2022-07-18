@@ -1,7 +1,7 @@
 import './App.css';
-import Start from './components/start';
 import Word from './page/word';
 import Landing from './page/landing';
+import LetterPrac from './page/letterPrac';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Landing />}></Route>
           <Route path='/word' element={<Word />}></Route>
+          <Route path='/letterPrac' element={<LetterPrac />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
